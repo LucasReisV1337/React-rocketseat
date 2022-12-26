@@ -6,7 +6,7 @@ export function Header() {
     return (
         <header className={styles.header}>
             <img src={igniteLogo}/>
-            <strong> Ignite Feed</strong>
+            <strong> Kofre TIC Feed</strong>
         </header>
     )
 
