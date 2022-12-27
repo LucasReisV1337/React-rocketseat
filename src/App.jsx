@@ -50,6 +50,7 @@ function App() {
           {posts.map(post => { 
             return (
               <Post ///Puxando do 'posts' que seria uma API
+                key={post.id}
                 author={post.author}
                 content={post.content}
                 publishedAt={post.publishedAt}
